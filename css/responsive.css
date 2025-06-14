@@ -1,0 +1,68 @@
+/* for laptop */
+@media screen and (max-width: 1200px){
+    .banner-content h1{
+        font-size: 52px;
+    }
+    .service-card{
+    padding: 80px 20px;
+    }
+    .story-image img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+/* for tablet */
+@media screen and (max-width: 1024px){
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .service-card-container{
+        flex-direction: column;
+    }
+    .service-card{
+        max-width: 100%;
+    }
+    .story-card{
+        flex-direction: column;
+    }
+    .story-content{
+        width: 100%;
+    }
+    .story-image{
+        width: 100%;
+    }
+}
+
+/* for phone */
+@media screen and (max-width: 640px){
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 36px;
+    }
+    .heading-content h2 {
+        font-size: 32px;
+    }
+    .country-card-container{
+        flex-direction: column;
+    }
+    .country-card-container h2{
+        text-align: center;
+    }
+    .tour-content{
+        flex-direction: column;
+    }
+    .star-img{
+        width: 50%;
+    }
+}
